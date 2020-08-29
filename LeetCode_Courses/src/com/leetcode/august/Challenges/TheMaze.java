@@ -3,7 +3,7 @@ package com.leetcode.august.Challenges;
 public class TheMaze {
 
 	public static void main(String[] args) {
-		int[][] maze= {{0 ,0, 1, 0, 0},
+		int[][] maze= {{0,0, 1, 0, 0},
 				{0, 0 ,0, 0, 0},
 				{0, 0, 0, 1 ,0},
 				{1, 1, 0, 1, 1},
