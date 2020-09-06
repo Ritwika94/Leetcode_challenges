@@ -2,6 +2,7 @@ package com.leetcode.august.Challenges;
 
 public class Robot {
 
+	
 	public void clean() {
 		// TODO Auto-generated method stub
 		
