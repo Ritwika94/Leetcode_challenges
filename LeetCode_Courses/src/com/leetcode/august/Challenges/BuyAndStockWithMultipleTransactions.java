@@ -7,6 +7,7 @@ public class BuyAndStockWithMultipleTransactions {
 		System.out.println(maxProfit(prices));
 
 	}
+	
 	public static int maxProfit(int[] prices) {
 		int profit=0;
 		int diff=0;
