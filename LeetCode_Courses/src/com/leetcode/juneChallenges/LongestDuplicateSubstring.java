@@ -17,7 +17,8 @@ public class LongestDuplicateSubstring {
 		while(l!=r)
 		{
 			int mid=l+(r-l)/2;
-			
+			System.out.println(mid);
+			System.out.println(search(mid,S,n));
 			if(search(mid,S,n)!=-1)
 			{
 				l=mid+1;
@@ -26,6 +27,7 @@ public class LongestDuplicateSubstring {
 				
 			else
 			{
+				//System.out.println("hi"+mid);
 				r=mid;
 				
 			}

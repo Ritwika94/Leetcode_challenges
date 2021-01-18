@@ -56,7 +56,7 @@ public class NumberOfIslands {
 			 findisland(grid,visited,i,j+1,n,m);
 			 findisland(grid,visited,i,j-1,n,m);
 			 findisland(grid,visited,i+1,j,n,m);
-             findisland(grid,visited,i+1,j,n,m);
+         
 			  findisland(grid,visited,i-1,j,n,m);     
 			 
 		}

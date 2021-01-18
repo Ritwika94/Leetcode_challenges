@@ -21,7 +21,7 @@ public class BestTimeToBuyAndSellStockWithAtmostOneTransaction {
               minPrice=prices[i];
           min[i]=Math.min(minPrice,prices[i]);
       }
-       max[0]=maxPrice;
+       max[n-1]=maxPrice;
       for(int i=n-2;i>=0;i--){
           if(prices[i]>maxPrice)
               maxPrice=prices[i];
