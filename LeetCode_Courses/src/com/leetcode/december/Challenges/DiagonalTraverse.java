@@ -11,6 +11,7 @@ public class DiagonalTraverse {
 				  { 7, 8, 9 }
 		};
 		int arr[]=findDiagonalOrder(mat);
+		
 		for(int x:arr) {
 			System.out.print(x+" ");
 		}
